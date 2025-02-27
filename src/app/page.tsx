@@ -1,3 +1,9 @@
+import ImageCarousel from "@/components/sections/ImageCarousel";
 export default function Home() {
-  return <div className={``}>Hoomepage</div>;
+  return (
+    <div className={``}>
+      <ImageCarousel />
+      Homepage
+    </div>
+  );
 }

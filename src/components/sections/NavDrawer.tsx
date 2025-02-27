@@ -23,7 +23,7 @@ function NavDrawer() {
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="bg-green-700 text-white hover:bg-green-200 hover:text-green-700">
+            <NavigationMenuTrigger className="bg-green-700 text-white hover:bg-greeen-700 hover:text-white">
               <CiMenuBurger />
             </NavigationMenuTrigger>
             <NavigationMenuContent className="p-8 bg-green-700 text-white">

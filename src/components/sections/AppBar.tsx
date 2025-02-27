@@ -7,7 +7,7 @@ import tdlogo from "@/public/tdlogo.jpeg";
 function AppBar() {
   return (
     <div
-      className={`bg-green-700 p-5 flex flex-auto justify-between content-center gap-4 text-white text-xl`}
+      className={`bg-green-700 p-5 flex flex-auto justify-between content-center gap-4 text-white text-lg`}
     >
       <div className="flex gap-5">
         <div>
