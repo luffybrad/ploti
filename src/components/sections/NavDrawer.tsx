@@ -26,10 +26,12 @@ function NavDrawer() {
             <NavigationMenuTrigger className="bg-green-700 text-white hover:bg-green-200 hover:text-green-700">
               <CiMenuBurger />
             </NavigationMenuTrigger>
-            <NavigationMenuContent className="p-5 text-2xl bg-green-700 text-white">
+            <NavigationMenuContent className="p-8 bg-green-700 text-white">
               {pages.map((page) => (
                 <Link key={page.name} href={page.path} legacyBehavior passHref>
-                  <NavigationMenuLink>{page.name}</NavigationMenuLink>
+                  <NavigationMenuLink className="text-xl hover:text-green-700 p-2">
+                    {page.name}
+                  </NavigationMenuLink>
                 </Link>
               ))}
             </NavigationMenuContent>
